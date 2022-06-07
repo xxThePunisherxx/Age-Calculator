@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Age calculator</title>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="window">
+				<div class="display">
+					<h1>Your age is</h1>
+					<div class="num">
+						<div class="years">
+							<h2 id="dispYears">00</h2>
+							<p>Years</p>
+						</div>
+						<div class="months">
+							<h2 id="dispMonths">00</h2>
+							<p>months</p>
+						</div>
+						<div class="days">
+							<h2 id="dispDay">00</h2>
+							<p>Days</p>
+						</div>
+					</div>
+				</div>
+				<div class="input">
+					<h1>Enter your date of birth</h1>
+					<h2 id="alertMesage" style="display: none; color: red">Enter a valid date.</h2>
+					<h2 id="notBorn" style="display: none; color: rgb(178, 57, 57)">Oops! Could not calculate age!</h2>
+					<input type="text" placeholder="Year" id="inputYear" style="pointer-events: auto" />
+					<input type="text" placeholder="Month" id="inputMonth" style="pointer-events: auto" />
+					<input type="text" placeholder="Day" id="inputDay" style="pointer-events: auto" />
+				</div>
+				<div class="buttons">
+					<button id="calculateBtn" onclick="calcAge()">Calculate age</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>

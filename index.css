@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Playfair Display", serif;
+}
+body {
+	height: 100vh;
+}
+.wrapper {
+	background-color: #0b132b;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	color: white;
+}
+.window {
+	background-color: #1c2541;
+	border-radius: 10px;
+	width: 50vw;
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+}
+.display {
+	text-align: center;
+}
+.display h1 {
+	font-size: 5rem;
+	text-align: center;
+	margin-bottom: 2rem;
+	color: yellow;
+}
+.num {
+	display: flex;
+	justify-content: space-around;
+	height: 150px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
+.num h2 {
+	font-size: 3rem;
+}
+.num p {
+	font-size: 2rem;
+}
+.input {
+	text-align: center;
+}
+.input h1 {
+	font-size: 4rem;
+	margin-bottom: 40px;
+	color: yellow;
+}
+.input input {
+	height: 2rem;
+	border-style: none;
+	margin-left: 20px;
+	border-radius: 5px;
+	text-align: center;
+	height: 70px;
+	width: 240px;
+	margin-top: 20px;
+	background-color: #d4f1f4;
+	font-size: 2rem;
+}
+.input h2 {
+	font-size: 2rem;
+}
+
+::placeholder {
+	color: black;
+	font-size: 1rem;
+	text-align: center;
+	font-size: 2rem;
+}
+.buttons {
+	text-align: center;
+	margin: 20px 20px;
+}
+.buttons button {
+	font-size: 2rem;
+	border-radius: 5px;
+	border-style: none;
+	background-color: steelblue;
+	color: white;
+	height: 70px;
+	width: 240px;
+}
